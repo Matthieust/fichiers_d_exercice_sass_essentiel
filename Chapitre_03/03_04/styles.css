@@ -1,39 +1,43 @@
-/* line 17, /Users/producer/Documents/Chapitre03/03_04/styles.scss */
 body {
   background-color: #DADBDF;
   background-image: url("css-27192.svg");
-  background-attachment: fixed; }
+  background-attachment: fixed;
+}
 
-/* line 25, /Users/producer/Documents/Chapitre03/03_04/styles.scss */
 .wrapper {
   width: 960px;
   margin: 0 auto;
   background-color: #FFF;
-  border: solid 3px #699; }
+  border: solid 3px #699;
+}
 
-/* line 31, /Users/producer/Documents/Chapitre03/03_04/styles.scss */
 header {
   background-color: #699;
-  padding: 20px; }
-  /* line 34, /Users/producer/Documents/Chapitre03/03_04/styles.scss */
-  header h1 {
-    font-family: source-serif-pro, Georgia, "Times New Roman", Times, serif;
-    font-size: 2rem;
-    color: #C69; }
+  padding: 20px;
+}
 
-/* line 40, /Users/producer/Documents/Chapitre03/03_04/styles.scss */
+header h1 {
+  font-family: source-serif-pro, Georgia, "Times New Roman", Times, serif;
+  font-size: 2rem;
+  color: #C69;
+}
+
 nav {
-  background-color: #C69; }
+  background-color: #C69;
+}
 
-/* line 43, /Users/producer/Documents/Chapitre03/03_04/styles.scss */
 nav ul {
   margin: 0;
   padding: 0;
   list-style: none;
+  display: -webkit-box;
+  display: -ms-flexbox;
   display: flex;
-  justify-content: flex-end; }
+  -webkit-box-pack: end;
+      -ms-flex-pack: end;
+          justify-content: flex-end;
+}
 
-/* line 50, /Users/producer/Documents/Chapitre03/03_04/styles.scss */
 nav ul li a {
   display: block;
   padding: 2px 20px;
@@ -41,43 +45,50 @@ nav ul li a {
   color: #FFF;
   font-size: 1rem;
   font-family: source-serif-pro, Georgia, "Times New Roman", Times, serif;
-  font-weight: bold; }
+  font-weight: bold;
+}
 
-/* line 59, /Users/producer/Documents/Chapitre03/03_04/styles.scss */
 nav ul li a:hover {
-  background-color: #6B717F; }
+  background-color: #6B717F;
+}
 
-/* line 62, /Users/producer/Documents/Chapitre03/03_04/styles.scss */
 section {
   margin: 20px 0;
-  padding: 0 20px; }
-  /* line 65, /Users/producer/Documents/Chapitre03/03_04/styles.scss */
-  section p {
-    color: #6B717F;
-    font-size: 1rem; }
-    /* line 68, /Users/producer/Documents/Chapitre03/03_04/styles.scss */
-    section p a {
-      color: #699;
-      text-decoration: none; }
-      /* line 71, /Users/producer/Documents/Chapitre03/03_04/styles.scss */
-      section p a:hover {
-        text-decoration: underline; }
+  padding: 0 20px;
+}
 
-/* line 78, /Users/producer/Documents/Chapitre03/03_04/styles.scss */
+section p {
+  color: #6B717F;
+  font-size: 1rem;
+}
+
+section p a {
+  color: #699;
+  text-decoration: none;
+}
+
+section p a:hover {
+  text-decoration: underline;
+}
+
 footer {
   padding: 20px;
-  background: linear-gradient(#C69, #73264d); }
-  /* line 81, /Users/producer/Documents/Chapitre03/03_04/styles.scss */
-  footer p {
-    color: #FFF;
-    font-size: 0.75rem;
-    font-style: italic; }
-    /* line 85, /Users/producer/Documents/Chapitre03/03_04/styles.scss */
-    footer p a {
-      color: #DADBDF;
-      text-decoration: none; }
-      /* line 88, /Users/producer/Documents/Chapitre03/03_04/styles.scss */
-      footer p a:hover {
-        text-decoration: underline; }
+  background: -webkit-gradient(linear, left top, left bottom, from(#C69), to(#73264d));
+  background: linear-gradient(#C69, #73264d);
+}
 
+footer p {
+  color: #FFF;
+  font-size: 0.75rem;
+  font-style: italic;
+}
+
+footer p a {
+  color: #DADBDF;
+  text-decoration: none;
+}
+
+footer p a:hover {
+  text-decoration: underline;
+}
 /*# sourceMappingURL=styles.css.map */
