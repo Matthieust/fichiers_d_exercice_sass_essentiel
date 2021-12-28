@@ -7,12 +7,13 @@ body {
 .wrapper {
   width: 960px;
   margin: 0 auto;
-  background-color: #FFF;
+  background-color: rgba(255, 255, 255, 0.8);
   border: solid 3px #699;
 }
 
 header {
-  background-color: #699;
+  background: -webkit-gradient(linear, left top, left bottom, from(#a3c2c2), to(#699));
+  background: linear-gradient(#a3c2c2, #699);
   padding: 20px;
 }
 
