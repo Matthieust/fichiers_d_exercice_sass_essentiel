@@ -1,4 +1,4 @@
-.btn{
+%btn{
     display: inline-block;
     border: solid 2px $green;
     padding: 5px;
@@ -12,5 +12,23 @@
     &:hover{
         background-color: $green;
         color: $white;
+    }
+}
+
+.button a{
+    @extend %btn;
+    border-radius: 5px;
+}
+
+.buttonGroup{
+    font-size: 0;
+    a{
+        @extend %btn;
+    }
+    li:first-child a{
+        border-radius: 5px 0 0 5px;
+    }
+    li:last-child a{
+        border-radius: 0 5px 5px 0;
     }
 }

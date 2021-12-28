@@ -3092,7 +3092,7 @@ header ul li {
   display: inline-block;
 }
 
-.btn {
+.button a, .buttonGroup a {
   display: inline-block;
   border: solid 2px #699;
   padding: 5px;
@@ -3106,9 +3106,25 @@ header ul li {
   text-align: center;
 }
 
-.btn:hover {
+.button a:hover, .buttonGroup a:hover {
   background-color: #699;
   color: #FFF;
+}
+
+.button a {
+  border-radius: 5px;
+}
+
+.buttonGroup {
+  font-size: 0;
+}
+
+.buttonGroup li:first-child a {
+  border-radius: 5px 0 0 5px;
+}
+
+.buttonGroup li:last-child a {
+  border-radius: 0 5px 5px 0;
 }
 
 nav {
